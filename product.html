@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Shopping Store 🛒</h1>
+    <h3>Cart: <span id="cart-count">0</span> | Total: ₹<span id="total">0</span></h3>
+</header>
+
+<section class="products">
+
+<div class="card">
+    <img src="https://via.placeholder.com/150">
+    <h3>T-Shirt</h3>
+    <p>₹500</p>
+    <button onclick="addToCart(500)">Add</button>
+</div>
+
+<div class="card">
+    <img src="https://via.placeholder.com/150">
+    <h3>Jeans</h3>
+    <p>₹1200</p>
+    <button onclick="addToCart(1200)">Add</button>
+</div>
+
+<div class="card">
+    <img src="https://via.placeholder.com/150">
+    <h3>Jacket</h3>
+    <p>₹2000</p>
+    <button onclick="addToCart(2000)">Add</button>
+</div>
+
+<div class="card">
+    <img src="https://via.placeholder.com/150">
+    <h3>Hoodie</h3>
+    <p>₹1500</p>
+    <button onclick="addToCart(1500)">Add</button>
+</div>
+
+</section>
+
+<h2 style="text-align:center;">Cart Items</h2>
+<ul id="cart-items" style="text-align:center;"></ul>
+
+<script src="script.js"></script>
+</body>
+</html>
